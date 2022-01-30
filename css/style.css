@@ -1,0 +1,112 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+
+/* ================================================================ */
+
+/* погнали! хаа)) */
+
+div {
+   color: yellowgreen;
+}
+p {
+   color: greenyellow;
+}
+.capital-name {
+   color: brown;
+}
+#anchor {
+   color: coral;
+}
+
+.text {
+   color: cyan;
+}
+.text {
+   color: cyan;
+}
+.name {
+   color: darkcyan;
+}
+
+p.content {
+   color: darkgoldenrod;
+}
+.content {
+   color: darkgreen;
+}
+
+.first-name,
+.second-name {
+   color: darkmagenta;
+}
+.second-name {
+   color: darkred;
+}
+[class*="-name"] {
+   color: fuchsia;
+}
+div span {
+   color: darkslategray;
+}
+span {
+   color: firebrick;
+}
+.text-text {
+   color: royalblue;
+}
+.aside > span {
+   color: yellow;
+}
+.aside + span {
+   color: goldenrod;
+}
+.aside ~ span {
+   color: red;
+}
+
+/* На всякий случай, для закрепления */
+
+/* .first-name,
+.second-name {
+   color: red;
+}
+.text-text,
+div {
+   color: green;
+} 
+div,
+span {
+   color: blue;
+}
+div {
+   color: crimson;
+}
+*/
